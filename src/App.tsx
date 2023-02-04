@@ -1,11 +1,20 @@
+import { Navegacional } from "./components/navegacional/nav"
+
 function App() {
   return (
-    <h1>My project</h1>
+    <>
+      <Navegacional titulo="John Wick"
+        nav1="Start"
+        nav2="Store"
+        nav3="Hello"
+      ></Navegacional>
+      <Navegacional
+        nav1="Start"
+        nav2="Store"
+        nav3="Hello"
+      ></Navegacional>
+    </>
   )
 }
-function Hellowordl(){
-  return(
-    <h1>Hello World</h1>
-  )
-}
-export {App,Hellowordl}
+
+export {App}
